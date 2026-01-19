@@ -36,19 +36,21 @@
 </nav>
 
 <!-- hero -->
-<div class="bg-[url(./assets/hero-bg.png)] bg-cover  bg-no-repeat pt-5 bg-center w-full min-h-[300px] md:min-h-[500px] lg:min-h-[600px] mb-20 ">
+<div class="bg-[url(./assets/hero-bg.png)] bg-contain md:bg-contain lg:bg-cover bg-position-[center_top_20px] md:bg-position-[center_top_0px]
+lg:bg-center bg-no-repeat pt-5 w-full min-h-[400px] md:min-h-[500px] lg:min-h-[600px]  ">
 
-    <div class="bg-[url(./assets/hero-circle.png)] w-full min-h-[150px] md:min-h-[250px] lg:min-h-[400px] bg-no-repeat bg-contain bg-bottom ">
-        <img src="./assets/microphone.png" alt="" class="mx-auto lg:pt-25 lg:w-30 md:w-25 md:pt-10 w-15 pt-8">
+    <div class="bg-[url(./assets/hero-circle.png)] w-full min-h-[150px] md:min-h-[200px] lg:min-h-[400px] bg-no-repeat bg-contain bg-bottom ">
+        <img src="./assets/microphone.png" alt="" class="mx-auto lg:pt-25 lg:w-30 md:w-20 md:pt-10 w-15 pt-8 animate-pulse">
     </div>
 
-          <div class="text-white text-center">
-                <h1 class="md:text-[3rem] text-[2rem] text-nowrap">Tech Wave</h1>
-                <p class="text-[1rem] mt-20 opacity-60">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+          <div class="text-white text-center md:mt-10 pt-10">
+                <h1 class="md:text-6xl text-4xl text-nowrap mb-5">Tech Wave</h1>
+                <p class="text-sm opacity-60">Your daily dose of tech insights, productivity hacks, and personal growth</p>
 
-                <div>
-                    <button>Listen on Spotify</button>
-                    <button></button>
+                <div class="flex items-center justify-center py-15 gap-10">
+                  <button class="text-white bg-[linear-gradient(45deg,#F7E93F_0%,#FB09B4_51%,#9100F8_100%)] p-2 rounded-3xl cursor-pointer hover:scale-110 hover:bg-[linear-gradient(45deg,#9100F8_0%,#FB09B4_51%,#F7E93F_100%)] hover:text-[#1A0B2E] duration-300"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                    <button class=" cursor-pointer border border-[#00FF88] text-[#00FF88] p-2 rounded-3xl hover:scale-110 hover:bg-green-200 hover:text-[#1A0B2E] duration-300"><i class="fa-regular fa-envelope"></i> Subscribe </button>
+                   
                 </div>
             </div>
 
@@ -59,7 +61,7 @@
 
     <main>
         <!-- about -->
-         <div class="max-w-[70%] m-auto pb-30">
+         <div class="max-w-[70%] m-auto py-30">
             <div class="text-white text-center">
                 <h1 class="md:text-[3rem] text-[2rem] text-nowrap">About the Podcast</h1>
                 <p class="md:text-[1rem]  text-[.8rem] mt-2 leading-8 opacity-60 md:max-w-[60%] max-w-full m-auto">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
@@ -73,9 +75,9 @@ and share stories of personal growth from industry leaders.
 
 
             <div class="grid md:grid-flow-col md:grid-cols-4 grid-cols-2 place-items-center gap-10 text-nowrap ">
-             <div class="text-center ">
+             <div class="text-center hover:scale-110 duration-300">
                 <h1 class="md:text-[3rem] text-[2.5rem] text-[#00FF88]">150K+</h1>
-                <p class="text-[1rem] text-[#FFFFFF] opacity-80">Monthly Listeners</p>
+                <p class="text-[1rem] text-[#FFFFFF] opacity-80 ">Monthly Listeners</p>
             </div>
               <div class="text-center">
                 <h1 class="md:text-[3rem] text-[2.5rem] text-[#00FF88]">200+</h1>
@@ -97,12 +99,12 @@ and share stories of personal growth from industry leaders.
 
 <!-- why choose us -->
 
-<div class=" bg-[#351165] mt-10 py-30">
+<div class=" bg-[#230E3D]  py-40">
      <h1 class="md:text-[3rem] text-[2rem] text-nowrap text-white text-center my-20">Why Choose TechWave</h1>
 
 <div class="grid grid-cols-1 gap-4 m-auto max-w-[90%] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-6 ">
 
-  <div class="bg-[#230E3D] rounded-3xl col-span-1 row-span-1 md:col-span-2 md:row-span-4 ">
+  <div class="bg-[#351165] rounded-3xl col-span-1 row-span-1 md:col-span-2 md:row-span-4 ">
 
     <div class="mx-10 my-20 text-white">
 <img src="./assets/headphone.png" alt="" class="mb-4">
@@ -112,7 +114,7 @@ and share stories of personal growth from industry leaders.
 
   </div>
 
-  <div class="bg-[#230E3D] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
+  <div class="bg-[#351165] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
 
     <div class=" text-white m-10">
 <img src="./assets/device.png" alt="" class="mb-4">
@@ -122,7 +124,7 @@ and share stories of personal growth from industry leaders.
 
   </div>
 
-  <div class="bg-[#230E3D] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
+  <div class="bg-[#351165] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
   
     <div class=" text-white m-10">
 <img src="./assets/location.png" alt="" class="mb-4">
@@ -132,7 +134,7 @@ and share stories of personal growth from industry leaders.
 
   </div>
 
-  <div class="bg-[#230E3D] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
+  <div class="bg-[#351165] rounded-3xl col-span-1  lg:col-span-4 lg:row-span-2">
 
     <div class=" text-white m-10">
 <img src="./assets/energy_1.png" alt="" class="mb-4">
@@ -142,7 +144,7 @@ and share stories of personal growth from industry leaders.
 
   </div>
 
-  <div class="bg-[#230E3D] rounded-3xl  row-span-1 lg:col-span-2 lg:row-span-2">
+  <div class="bg-[#351165] rounded-3xl  row-span-1 lg:col-span-2 lg:row-span-2">
  
         <div class=" text-white m-10">
 <img src="./assets/resource.png" alt="" class="mb-4">
@@ -202,7 +204,7 @@ and share stories of personal growth from industry leaders.
 
          <!-- meet the host -->
 
-          <div class="mt-10 ">
+          <div class="mt-30 mb-30 ">
             <h1 class="text-white text-center md:text-5xl text-4xl font-bold">Meet the Host</h1>
 
        <div class="max-w-[80%] gap-10 bg-[#351165] rounded-3xl shadow-2xl py-10 my-10 m-auto flex items-center justify-between md:flex-row flex-col ">
